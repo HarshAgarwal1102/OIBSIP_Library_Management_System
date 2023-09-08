@@ -90,7 +90,7 @@
 <img width="999" alt="Screenshot 2023-09-08 at 10 35 20 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/396f0bff-aa70-47b4-b789-0e4a643bccd1">
 
 # Book Returned Data
-<img width="999" alt="Screenshot 2023-09-08 at 10 35 31 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/8367c71a-6dbf-4084-a80f-de43063c92a5">
+<img width="999" alt="Screenshot 2023-09-08 at 11 00 14 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/fc2b6ace-67dc-47db-9698-84f1dc077f4c">
 
 # Issued Books Data
 Student who returned the book now removed from issued books data
