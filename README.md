@@ -79,3 +79,19 @@
 
 # Issued Books Data
 <img width="1000" alt="Screenshot 2023-09-08 at 10 31 11 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/3dc443f6-3ac1-4862-9b69-49436e0b0a8f">
+
+# Book Return 
+<img width="998" alt="Screenshot 2023-09-08 at 10 34 47 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/d2e536f8-61dd-4856-b8bf-3a872b44e352">
+
+# Confirm Book Return
+<img width="999" alt="Screenshot 2023-09-08 at 10 35 11 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/33782942-3d8e-4386-933e-21157cc63780">
+
+# Book Returned
+<img width="999" alt="Screenshot 2023-09-08 at 10 35 20 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/396f0bff-aa70-47b4-b789-0e4a643bccd1">
+
+# Book Returned Data
+<img width="999" alt="Screenshot 2023-09-08 at 10 35 31 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/8367c71a-6dbf-4084-a80f-de43063c92a5">
+
+# Issued Books Data
+Student who returned the book now removed from issued books data
+<img width="999" alt="Screenshot 2023-09-08 at 10 35 47 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/e1adce16-650e-4c49-ba55-a90a604e969f">
