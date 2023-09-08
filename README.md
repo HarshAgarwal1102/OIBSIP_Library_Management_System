@@ -17,12 +17,6 @@
 # Existing Students
 <img width="1000" alt="Screenshot 2023-09-08 at 8 06 17 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/9bd38400-6d14-44ff-b7cf-08a248a353b9">
 
-# Search Student
-<img width="874" alt="Screenshot 2023-09-08 at 8 12 22 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/20513417-6a6e-42be-8c84-2067e114a891">
-
-# Student Found
-<img width="999" alt="Screenshot 2023-09-08 at 8 07 01 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/863895d1-498a-476b-bcc1-3764dc933188">
-
 # Add Student
 <img width="875" alt="Screenshot 2023-09-08 at 8 12 01 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/2c4b456c-db15-4e41-8e4e-86dd8d04a422">
 
@@ -31,3 +25,18 @@
 
 # Existing Students List
 <img width="1000" alt="Screenshot 2023-09-08 at 8 11 21 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/14fc83aa-255d-4e5e-9196-19dcf2ca4f04">
+
+# Search Student to delete
+<img width="874" alt="Screenshot 2023-09-08 at 8 12 22 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/20513417-6a6e-42be-8c84-2067e114a891">
+
+# Student Found
+<img width="999" alt="Screenshot 2023-09-08 at 8 07 01 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/863895d1-498a-476b-bcc1-3764dc933188">
+
+# Confirm Delete
+<img width="999" alt="Screenshot 2023-09-08 at 8 29 08 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/271836cd-d4e6-437c-97c2-1869b5a4c654">
+
+# Student Deleted
+<img width="999" alt="Screenshot 2023-09-08 at 8 29 25 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/415ac989-3f3b-4210-96f9-00c58c510b04">
+
+# Student List
+<img width="1000" alt="Screenshot 2023-09-08 at 8 29 48 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/e02d2f24-62ca-4b28-b5da-07bc95713175">
