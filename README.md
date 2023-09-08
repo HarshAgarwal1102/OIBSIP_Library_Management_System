@@ -18,7 +18,7 @@
 <img width="1000" alt="Screenshot 2023-09-08 at 8 06 17 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/9bd38400-6d14-44ff-b7cf-08a248a353b9">
 
 # Add Student
-<img width="875" alt="Screenshot 2023-09-08 at 8 12 01 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/2c4b456c-db15-4e41-8e4e-86dd8d04a422">
+<img width="999" alt="Screenshot 2023-09-08 at 8 12 01 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/2c4b456c-db15-4e41-8e4e-86dd8d04a422">
 
 # Student Added
 <img width="999" alt="Screenshot 2023-09-08 at 8 11 03 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/0d3d6197-2f3a-4cab-b76a-5f0a807d86fd">
@@ -27,7 +27,7 @@
 <img width="1000" alt="Screenshot 2023-09-08 at 8 11 21 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/14fc83aa-255d-4e5e-9196-19dcf2ca4f04">
 
 # Search Student to delete
-<img width="874" alt="Screenshot 2023-09-08 at 8 12 22 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/20513417-6a6e-42be-8c84-2067e114a891">
+<img width="999" alt="Screenshot 2023-09-08 at 8 12 22 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/20513417-6a6e-42be-8c84-2067e114a891">
 
 # Student Found
 <img width="999" alt="Screenshot 2023-09-08 at 8 07 01 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/863895d1-498a-476b-bcc1-3764dc933188">
