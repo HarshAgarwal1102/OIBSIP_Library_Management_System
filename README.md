@@ -70,3 +70,12 @@
 
 # Book List 
 <img width="1000" alt="Screenshot 2023-09-08 at 8 24 56 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/430ef07e-c41c-45b2-bec2-beabaefa3c34">
+
+# Issue Book
+<img width="1000" alt="Screenshot 2023-09-08 at 10 30 51 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/2a24d7f9-f166-4d4e-8e4a-8a5d57539876">
+
+# Book Issued
+<img width="999" alt="Screenshot 2023-09-08 at 10 30 38 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/a22044ad-d13f-4010-a57b-b5067aab9c1d">
+
+# Issued Books Data
+<img width="1000" alt="Screenshot 2023-09-08 at 10 31 11 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/3dc443f6-3ac1-4862-9b69-49436e0b0a8f">
