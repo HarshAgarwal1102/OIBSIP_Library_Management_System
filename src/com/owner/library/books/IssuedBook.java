@@ -16,6 +16,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
 import com.owner.library.utils.Coon;
+import javax.swing.SwingConstants;
 
 public class IssuedBook extends JFrame implements ActionListener{
 
@@ -26,7 +27,7 @@ public class IssuedBook extends JFrame implements ActionListener{
 	JButton b1;
 
 	public IssuedBook() {
-		setLayout(new FlowLayout());
+		getContentPane().setLayout(new FlowLayout());
 		model.addColumn("Student ID");
 		model.addColumn("Student Name");
 		model.addColumn("Year & class");
@@ -35,16 +36,17 @@ public class IssuedBook extends JFrame implements ActionListener{
 		model.addColumn("Issuee Date");
 		
 		l1 = new JLabel("Books Record");
-		add(l1);
-		l1.setBounds(400,30,400,30);
+		l1.setHorizontalAlignment(SwingConstants.CENTER);
+		getContentPane().add(l1);
+		l1.setBounds(50,30,900,30);
 		l1.setFont(new Font("Rockwell Nova Light", Font.BOLD , 35));
 		
 		b1 = new JButton("Back");
-		add(b1);
+		getContentPane().add(b1);
 		b1.setBounds(450,520,120,30);
 		b1.addActionListener(this);
 		
-		setLayout(null);
+		getContentPane().setLayout(null);
 		setSize(1000, 667);
 		setVisible(true);
 		setLocationRelativeTo(null);
@@ -70,7 +72,7 @@ public class IssuedBook extends JFrame implements ActionListener{
 		pg.setBounds(50,100,900,400);
 		pg.setOpaque(false);
 		pg.getViewport().setOpaque(false);
-		add(pg);
+		getContentPane().add(pg);
 		
 		
 	}
@@ -80,6 +82,7 @@ public class IssuedBook extends JFrame implements ActionListener{
 		// TODO Auto-generated method stub
 		String sa = e.getActionCommand();
 		if (sa.equals("Back")) {
+			new IssueBook();
 			setVisible(false);
 			dispose();
 		}

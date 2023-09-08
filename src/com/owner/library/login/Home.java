@@ -56,7 +56,7 @@ public class Home extends JFrame implements ActionListener {
 		b2.setBounds(550, 200, 300, 35);
 		b2.addActionListener(this);
 
-		b3 = new JButton("Issuee Book");
+		b3 = new JButton("Issue Book");
 		label.add(b3);
 		b3.setFont(font);
 		b3.setBounds(190, 300, 300, 35);
@@ -96,7 +96,7 @@ public class Home extends JFrame implements ActionListener {
 			dispose();
 		}
 
-		if (s.equals("Issuee Book")) {
+		if (s.equals("Issue Book")) {
 			new IssueBook();
 			setVisible(false);
 			dispose();

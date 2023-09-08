@@ -274,6 +274,14 @@ public class IssueBook extends JFrame implements ActionListener {
 
 					ps.executeUpdate();
 					JOptionPane.showMessageDialog(null, "Book is ISSUEED");
+					
+					t10.setText("");
+					t11.setText("");
+					t12.setText("");
+					t13.setText("");
+					t14.setText("");
+					t15.setText("");
+					
 
 					conn.c.close();
 				} catch (Exception e) {

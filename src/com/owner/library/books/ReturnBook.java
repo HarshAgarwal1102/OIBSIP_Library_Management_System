@@ -225,6 +225,21 @@ public class ReturnBook extends JFrame implements ActionListener {
 				int i = ps.executeUpdate();
 				if (i > 0) {
 					JOptionPane.showMessageDialog(null, "Book Is Returned.");
+					
+					Coon connn = new Coon();
+					String sqll = "Delete from Book_Issuer where Student_Id = '" + t11.getText() + "'";
+					PreparedStatement pss = connn.c.prepareStatement(sqll);
+
+					pss.executeUpdate();	
+					pss.close();
+					connn.c.close();
+					t10.setText("");
+					t11.setText("");
+					t12.setText("");
+					t13.setText("");
+					t14.setText("");
+					t15.setText("");
+					t16.setText("");
 				} 
 				else {
 					JOptionPane.showMessageDialog(null, "Error!!! ID is not Present");					

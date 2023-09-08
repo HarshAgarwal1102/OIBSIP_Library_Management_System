@@ -2,6 +2,7 @@ package com.owner.library.books;
 
 import java.awt.Container;
 import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.PreparedStatement;
@@ -9,21 +10,24 @@ import java.sql.ResultSet;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
 import com.owner.library.utils.Coon;
+import javax.swing.SwingConstants;
 
 public class ViewReturnedBook extends JFrame implements ActionListener{
 
 		DefaultTableModel model = new DefaultTableModel();
 		JTable jtbl = new JTable(model);
 		Container co = getContentPane();
+		JLabel l1;
 		JButton btn;
 
 		public ViewReturnedBook() {
-			setLayout(new FlowLayout());
+			getContentPane().setLayout(new FlowLayout());
 
 			model.addColumn("Student ID");
 			model.addColumn("Student Name");
@@ -32,13 +36,19 @@ public class ViewReturnedBook extends JFrame implements ActionListener{
 			model.addColumn("Book Name");
 			model.addColumn("Issuee Date");
 			model.addColumn("Return Date");
+
+			l1 = new JLabel("Returned Books");
+			l1.setHorizontalAlignment(SwingConstants.CENTER);
+			getContentPane().add(l1);
+			l1.setBounds(50,30,900,30);
+			l1.setFont(new Font("Rockwell Nova Light", Font.BOLD , 35));
 			
 			btn = new JButton("Back");
-			add(btn);
+			getContentPane().add(btn);
 			btn.setBounds(450,520,120,30);
 			btn.addActionListener(this);
 			
-			setLayout(null);
+			getContentPane().setLayout(null);
 			setSize(1000, 600);
 			setVisible(true);
 			setLocationRelativeTo(null);
@@ -60,7 +70,7 @@ public class ViewReturnedBook extends JFrame implements ActionListener{
 			}
 
 			JScrollPane pg = new JScrollPane(jtbl);
-			pg.setBounds(84, 5, 811, 402);
+			pg.setBounds(50,100,900,400);
 			pg.setOpaque(false);
 			pg.getViewport().setOpaque(false);
 			co.add(pg);
@@ -72,6 +82,7 @@ public class ViewReturnedBook extends JFrame implements ActionListener{
 			// TODO Auto-generated method stub
 			String sa = e.getActionCommand();
 			if (sa.equals("Back")) {
+				new ReturnBook();
 				setVisible(false);
 				dispose();
 			}

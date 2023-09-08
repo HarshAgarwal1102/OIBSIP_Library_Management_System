@@ -106,7 +106,7 @@ public class LoginView extends JFrame implements ActionListener {
 				JOptionPane.showMessageDialog(null, "Wrong ID or Password");
 			}
 		}
-		if (s.equals("Cancel")) {
+		if (s.equals("Exit")) {
 			System.exit(0);
 		}
 	}
