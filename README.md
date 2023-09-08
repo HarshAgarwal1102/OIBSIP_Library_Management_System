@@ -6,7 +6,7 @@
 
 # Library System
 # Login
-<img width="1001" alt="Screenshot 2023-09-08 at 8 04 49 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/b3dc9cf6-8a56-4e76-894a-8de7dd5f1a8c">
+<img width="1000" alt="Screenshot 2023-09-08 at 9 40 34 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/4b556cb2-35a3-4ad7-931e-93e6a715cb46">
 
 # Main Menu
 <img width="1000" alt="Screenshot 2023-09-08 at 8 39 15 PM" src="https://github.com/HarshAgarwal1102/OIBSIP_Library_Management_System/assets/117922914/8d48dab9-50f7-47f7-8201-9f5aad462f9e">
