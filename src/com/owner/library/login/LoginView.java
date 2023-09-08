@@ -33,7 +33,7 @@ public class LoginView extends JFrame implements ActionListener {
 	public LoginView() {
 		
 		setTitle("Library Managment App");
-		JLabel label = new JLabel(new ImageIcon(LoginView.class.getResource("/assets/lib1.jpg")));
+		JLabel label = new JLabel(new ImageIcon(LoginView.class.getResource("/assets/lib8.jpg")));
 		label.setBounds(0, 0, 1000, 667);
 		getContentPane().add(label);
 		

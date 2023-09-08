@@ -73,7 +73,7 @@ public class AllBooks extends JFrame implements ActionListener{
 			// TODO Auto-generated method stub
 			String sa = e.getActionCommand();
 			if (sa.equals("Back")) {
-				new Home();
+				new AddBook();
 				setVisible(false);
 				dispose();
 			}

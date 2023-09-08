@@ -111,7 +111,7 @@ public class AddStudent extends JFrame implements ActionListener {
 		c1 = new JComboBox<Object>();
 		label.add(c1);
 		c1.setFont(font);
-		c1.setBounds(270, 240, 90, 30);
+		c1.setBounds(270, 240, 110, 30);
 		c1.setModel(new DefaultComboBoxModel<Object>(new String[] { "BE", "SE", "TE", "BTECH" }));
 
 		c2 = new JComboBox<Object>();

@@ -20,7 +20,7 @@ import com.owner.library.student.AddStudent;
 public class Home extends JFrame implements ActionListener {
 	
 	JLabel label, l1;
-	JButton b1, b2, b3, b4, b5, b6, b8, b9, b10;
+	JButton b1, b2, b3, b4, b5, b6, b9, b10;
 	Container con;
 
 	public static void main(String args[]) {
@@ -65,14 +65,9 @@ public class Home extends JFrame implements ActionListener {
 		b9 = new JButton("Logout");
 		label.add(b9);
 		b9.setFont(font);
-		b9.setBounds(550, 400, 300, 35);
+		b9.setBounds(350, 400, 300, 35);
 		b9.addActionListener(this);
 
-		b8 = new JButton("View All Books");
-		label.add(b8);
-		b8.setFont(font);
-		b8.setBounds(190, 400, 300, 35);
-		b8.addActionListener(this);
 
 		b10 = new JButton("Add Books / Search Book");
 		label.add(b10);
@@ -109,12 +104,6 @@ public class Home extends JFrame implements ActionListener {
 
 		if (s.equals("Return Book")) {
 			new ReturnBook();
-			setVisible(false);
-			dispose();
-		}
-
-		if (s.equals("View All Books")) {
-			new AllBooks();
 			setVisible(false);
 			dispose();
 		}

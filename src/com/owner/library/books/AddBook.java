@@ -92,7 +92,7 @@ public class AddBook extends JFrame implements ActionListener {
 		label.add(t11);
 
 		t12 = new JTextField();
-		t12.setBounds(270, 210, 120, 30);
+		t12.setBounds(270, 210, 180, 30);
 		t12.setFont(font);
 		label.add(t12);
 
@@ -200,7 +200,8 @@ public class AddBook extends JFrame implements ActionListener {
 				ResultSet Rs = ps.executeQuery();
 				if (Rs.next()){
 					JOptionPane.showMessageDialog(null,
-							"Book Name : " + Rs.getString(2) +"\n"+"Book ID : " + Rs.getString(1));
+							"Book Name : " + Rs.getString(2) +"\n"+"Book ID : " + Rs.getString(1)
+							+"\n"+"Author : " + Rs.getString(3));
 				} 
 				else {
 					JOptionPane.showMessageDialog(null, "Error!!! No such book found...");					
@@ -221,7 +222,7 @@ public class AddBook extends JFrame implements ActionListener {
 				PreparedStatement ps = conn.c.prepareStatement(sql);
 
 				JDialog.setDefaultLookAndFeelDecorated(true);
-				int response = JOptionPane.showConfirmDialog(null, "Do you want to continue?", "Confirm",
+				int response = JOptionPane.showConfirmDialog(null, "Do you want to Delete?", "Confirm",
 						JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 				if (response == JOptionPane.NO_OPTION) {
 
@@ -231,8 +232,7 @@ public class AddBook extends JFrame implements ActionListener {
 					ps.executeUpdate();
 					JOptionPane.showMessageDialog(null, "Book Deleted Successfully!!");
 				} 
-//				else if (response == JOptionPane.CLOSED_OPTION) {
-//				}
+				
 				ps.close();
 				conn.c.close();
 			} 
